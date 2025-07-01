@@ -1,0 +1,43 @@
+[0m17:08:27.163452 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000147CB3333A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000147CD5939A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000147CD592E90>]}
+
+
+============================== 17:08:27.172417 | f311035d-b620-4ba7-8471-1f30921c6ab8 ==============================
+[0m17:08:27.172417 [info ] [MainThread]: Running with dbt=1.10.2
+[0m17:08:27.173419 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\richardt\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'invocation_command': 'dbt init jaffle_shop', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:08:27.258310 [debug] [MainThread]: Starter project path: C:\Users\richardt\Documents\Project\ow-dna-ai-tooling\duck-dbt-venv\lib\site-packages\dbt\include\starter_project
+[0m17:08:27.329909 [info ] [MainThread]: 
+Your new dbt project "jaffle_shop" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:08:27.331877 [info ] [MainThread]: Setting up your profile.
+[0m17:08:31.180399 [debug] [MainThread]: Command `dbt init` succeeded at 17:08:31.179397 after 4.13 seconds
+[0m17:08:31.181400 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000147CB3333A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000147CD5D11B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000147CD3B3250>]}
+[0m17:08:31.182401 [debug] [MainThread]: Flushing usage events
+[0m17:08:31.620977 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:42:43.656976 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E5AA23430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E5CC80250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E5CC80550>]}
+
+
+============================== 19:42:43.661977 | 92cae5b8-8f78-4e36-b74d-e576906821c6 ==============================
+[0m19:42:43.661977 [info ] [MainThread]: Running with dbt=1.10.2
+[0m19:42:43.662977 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\richardt\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt deps', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:42:43.663977 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\richardt\Documents\Project\ow-dna-ai-tooling\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m19:42:43.665977 [debug] [MainThread]: Command `dbt deps` failed at 19:42:43.665977 after 0.11 seconds
+[0m19:42:43.666975 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E5AA23430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E5CD04D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028E5CD047F0>]}
+[0m19:42:43.667976 [debug] [MainThread]: Flushing usage events
+[0m19:42:44.027660 [debug] [MainThread]: An error was encountered while trying to flush usage events
